@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #3498db; */
+    background-image: linear-gradient(rgb(109, 204, 235), rgb(237, 237, 86),rgb(236, 187, 187));
+    position: relative;
+    overflow: hidden;
+}
+
+#target {
+    width: 60px;
+    height: 60px;
+    background-color: #06127c;
+    position: absolute;
+    border-radius: 40%;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+#score {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(17, 122, 3);
+    margin-top: 20px;
+}
